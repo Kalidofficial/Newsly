@@ -1,0 +1,28 @@
+name: newsly
+description: A Flutter application for news articles.
+
+environment:
+  sdk: ">=3.4.0 <4.0.0" # Compatible with Dart and Flutter SDK versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2 # For API calls
+  provider: ^6.1.2 # For state management
+  cupertino_icons: ^1.0.2 # Default Cupertino icons
+  flutter_lints: ^4.0.0 # For linting and best practices
+  url_launcher: ^6.1.6
+  font_awesome_flutter: ^10.1.0  # Added FontAwesome icons package
+  sqflite: ^2.0.0+4  # SQLite database
+  path_provider: ^2.0.11  # Path provider for locating database
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/app_icon.png
