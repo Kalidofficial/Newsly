@@ -7,7 +7,7 @@ class NewsProvider with ChangeNotifier {
   List<Article> articles = [];
   bool isLoading = false;
 
-  // Fetch news with sorting logic
+  // Fetch news with sorting
   Future<void> fetchNews(String category, String sortBy) async {
     final url =
         'https://newsapi.org/v2/top-headlines?category=$category&apiKey=39b739d086c74d3b967343e21276ea39';
